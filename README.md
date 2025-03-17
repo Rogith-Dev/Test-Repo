@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+Check it out!
+👇
+https://lustrous-rugelach-8456d1.netlify.app
+
+Your site will be live for 1 hour.
+
+The password for accessing the site is: My-Drop-Site
