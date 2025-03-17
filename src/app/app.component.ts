@@ -12,11 +12,11 @@ export class AppComponent {
   title = 'testapp';
 
   images = [
-    'http://adorama.com/alc/wp-content/uploads/2021/04/photography-camera-learning-feature.jpg',
-    'https://images.unsplash.com/photo-1554080353-a576cf803bda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8fDA%3D',
-    'http://adorama.com/alc/wp-content/uploads/2021/04/photography-camera-learning-feature.jpg',
-    'http://adorama.com/alc/wp-content/uploads/2021/04/photography-camera-learning-feature.jpg',
-    'http://adorama.com/alc/wp-content/uploads/2021/04/photography-camera-learning-feature.jpg'
+    'https://www.skillreactor.io/blog/wp-content/uploads/2024/04/Is-Coding-a-Good-Career.jpg',
+    'https://media.licdn.com/dms/image/v2/D4D12AQF6mW4EuB-99Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1692951785182?e=2147483647&v=beta&t=9whX4YpHoNOzyq7CIiNwro17k-ajBH6TM3qo2CyH2Pk',
+    'https://blog.pango.education/hubfs/Coding%20Blog%20Image.jpg',
+    'https://media.licdn.com/dms/image/v2/D4D12AQF6mW4EuB-99Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1692951785182?e=2147483647&v=beta&t=9whX4YpHoNOzyq7CIiNwro17k-ajBH6TM3qo2CyH2Pk',
+    'https://www.skillreactor.io/blog/wp-content/uploads/2024/04/Is-Coding-a-Good-Career.jpg'
   ];
 
   currentIndex = 0;
