@@ -9,6 +9,15 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+
+const routes: Routes = [
+  { path: 'home', component: HomeComponent }, // Default route
+  { path: 'about', component: AboutComponent } // Route for About page
+];
+
 
 @NgModule({
   declarations: [
@@ -17,6 +26,7 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule.forRoot(routes),
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatInputModule,

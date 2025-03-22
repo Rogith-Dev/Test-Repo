@@ -1,19 +1,15 @@
-<div class="container text-center">
+<!-- <div class="container text-center">
   <img alt="logo" width="150px" src="../assets/images/tdr_logo.jpg">
 </div>
 
 <nav class="navbar-expand-lg navbar-light bg-light">
-  <!-- Container wrapper -->
   <div class="container-fluid">
-    <!-- Toggle button -->
     <button class="navbar-toggler" type="button" aria-controls="navbarCenteredExample" aria-expanded="false"
       aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
 
-    <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
-      <!-- Left links -->
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -28,11 +24,8 @@
           <a class="nav-link" href="#">About</a>
         </li>
       </ul>
-      <!-- Left links -->
     </div>
-    <!-- Collapsible wrapper -->
   </div>
-  <!-- Container wrapper -->
 </nav>
 
 
@@ -41,12 +34,12 @@
 
   <div class="slider">
     <div class="image-wrapper" [style.transform]="'translateX(' + (-100 * currentIndex) + '%)'">
-      <img  *ngFor="let image of images" [src]="image" alt="Image" class="slide-image" />
+      <img *ngFor="let image of images" [src]="image" alt="Image" class="slide-image" />
     </div>
   </div>
 
   <button (click)="nextImage()" class="next-btn">❯</button>
-</div>
+</div> -->
 
 
 
